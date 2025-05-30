@@ -1,0 +1,42 @@
+git init
+O comando git init é o primeiro passo para começar a usar o Git em um projeto. Ele inicializa um novo repositório Git vazio ou reinicializa um existente no diretório atual.
+
+Exemplo:
+
+C:\Users\UniALFA>cd C:\Users\UniALFA\Documents\mygit
+
+C:\Users\UniALFA\Documents\mygit>git init
+Initialized empty Git repository in C:/Users/UniALFA/Documents/mygit/.git/
+
+Git ADD
+Quando você termina de escrever algo no seu caderno e decide que é importante guardar, você o "prepara" para ser salvo. O git add faz isso: ele seleciona as mudanças que você quer guardar.
+
+Exeplo:
+
+C:\Users\UniALFA\Documents\mygit>git add img.webp
+
+Git Status
+Depois de preparar, você "guarda" suas anotações no caderno, junto com uma pequena descrição do que você escreveu. O git commit é essa ação: ele salva as mudanças de forma definitiva, e você coloca uma mensagem explicando o que fez.
+
+Exemplo:
+
+C:\Users\UniALFA\Documents\mygit>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   img.webp
+
+Git Log
+Quer ver tudo o que você já escreveu e guardou no seu caderno? O git log te mostra o histórico completo de todas as vezes que você "guardou" suas anotações, com as datas e as descrições.
+
+Exemplo:
+
+commit d2e1f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0 (HEAD -> main)
+Author: exemplo <exemplo2@example.com>
+Date:   Thu May 30 20:30:00 2025 -0300
+
+    docs: Adiciona diagrama de fluxo de trabalho do Git
+
